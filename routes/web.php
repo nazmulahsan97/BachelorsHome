@@ -34,7 +34,7 @@ Route::post("/uploadhouse",[AdminController::class,"upload"]);
 
 Route::post("/reservation",[AdminController::class,"reservation"]);
 
-Route::post("/viewreservation",[AdminController::class,"viewreservation"]);
+Route::get("/viewreservation",[AdminController::class,"viewreservation"]);
 
 
 Route::get("/deleteuser/{id}",[AdminController::class,"deleteuser"]);

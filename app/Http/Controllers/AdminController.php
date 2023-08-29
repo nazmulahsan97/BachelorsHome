@@ -77,7 +77,7 @@ class AdminController extends Controller
     public function viewreservation(Request $request)
     {
         $data= reservation::all();
-        return view("admin.adminreservation",compact("data-"));
+        return view("admin.adminreservation",compact("data"));
     }
 
 
